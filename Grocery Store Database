@@ -1,0 +1,18 @@
+CREATE TABLE Tony_Grocery (id INTEGER PRIMARY KEY,item TEXT,price INTEGER,quantity INTEGER,aisle INTEGER, rating INTEGER);
+
+INSERT INTO Tony_Grocery VALUES (1,"Bread",4.99,18,1,6);
+INSERT INTO Tony_Grocery VALUES (2,"Eggs",5.99,24,2,7);
+INSERT INTO Tony_Grocery VALUES (3,"Pastries",1.99,13,3,8);
+INSERT INTO Tony_Grocery VALUES (4, "Meat", 10.99,16,4,8);
+INSERT INTO Tony_Grocery VALUES (5, "Beer",24.99,35,5,10);
+INSERT INTO Tony_Grocery VALUES (6, "Chips",4.99,56,6,7);
+INSERT INTO Tony_Grocery VALUES (7, "Laundry Detergent", 18.99,12,7,9);
+INSERT INTO Tony_Grocery VALUES (8, "Socks", 8.99,4,8,4); 
+INSERT INTO Tony_Grocery VALUES (9,"Ice Cream", 12.99,14,9,10);
+INSERT INTO Tony_Grocery VALUES (10, "Beef Jerky", 14.99,23,10,6);
+INSERT INTO Tony_Grocery VALUES (11, "Soda", 6.99,45,11,7);
+INSERT INTO Tony_Grocery VALUES (12, "Toothpaste", 7.99,15,12,5);
+INSERT INTO Tony_Grocery VALUES (13, "Cigarettes", 13.99,34,13,2);
+INSERT INTO Tony_Grocery VALUES (14, "Shampoo", 2.99,48,14,7);
+INSERT INTO Tony_Grocery VALUES (15, "Pillows", 23.99,23,15,10);
+SELECT * FROM Tony_Grocery;
